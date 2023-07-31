@@ -29,7 +29,7 @@
     .footer {
       width: 100%;
     }
-
+    .card {min-height:160px;padding:0 1rem; background-color: #f5f5f5;}
   </style>
 </head>
 <body>
@@ -69,8 +69,8 @@
   <div class="container-fluid mt-5">
     <div class="row" id="home">
       <div class="col-md-12 text-center mb-4">
-        <h1 class="mt-5 wow animate__animated animate__fadeInLeft">收藏 & 记录 & 断舍离 & 极简主义</h1>
-        <h2 class="text-secondary mt-5 wow animate__animated animate__fadeInLeft">一款只管理不收纳的物品App</h2>
+        <h1 class="mt-5 wow animate__animated animate__fadeInLeft">一款只管理不收纳的物品App</h1>
+        <h2 class="text-secondary mt-5 wow animate__animated animate__fadeInLeft">收藏 & 记录 & 断舍离 & 极简主义</h2>
       </div>
       <div class="col-md-8 offset-md-2 pl-4 pr-4 text-center wow animate__animated animate__fadeInLeft">
         <img src="./images/Screenshot_1.png" class="img-fluid mb-5">
@@ -189,13 +189,43 @@
         <p class="mb-4 text-font">
           ☑️ 物品花费
         </p>
+        <p class="mb-4 text-font">
+          ☑️ 按分类 / 标签 / 渠道
+        </p>
       </div>
 
       <div class="col-md-6 text-center">
         <img src="./images/Screenshot_3.png" alt="Product Image" class="img-fluid wow animate__animated animate__fadeInLeft animate__delay-1s">
       </div>
     </div>
-    <div class="row d-flex flex-column justify-content-center">
+    <div>
+      <div class="container wow animate__animated animate__fadeInLeft">
+        <h2 class="mt-5 mb-5 text-center">来自App Store的好评</h2>
+        <div class="row">
+          <div class="col-md-4 mt-2">
+            <div class="card">
+              <h2 class="text-warning mt-2 text-center">★★★★★</h2>
+              <p>很好用 帮助我理清楚了家里的物品 打开次数有变多 特别适合健忘的我</p>  
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="card">
+              <h2 class="text-warning mt-2 text-center">★★★★★</h2>
+              <p>我是做办公室物品管理用，下了很多同类软件，这款最清爽，逻辑简洁实用，使用方便快捷。给作者好评。
+              </p>  
+            </div>
+          </div>
+          <div class="col-md-4 mt-2">
+            <div class="card">
+              <h2 class="text-warning mt-2 text-center">★★★★★</h2>
+              <p>简洁舒适👍,相见恨晚的感觉</p>  
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="row wow animate__animated animate__fadeInLeft d-flex flex-column justify-content-center">
       <div class="mt-5 text-center">
         <h1>获取<span class="text-primary">小物品</span></h1>
         <p class="text-font">🎉 开始愉快地管理您的物品吧 </p>
