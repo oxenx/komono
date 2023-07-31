@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>小物品:轻量极简的物品管理App</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+
+  <style>
+    .bg-f5f5f5 {
+      background-color: #f5f5f5;
+    }
+    @font-face {
+      font-family: 'AlibabaPuHuiTi-Regular';
+      src: url('./fonts/AlibabaPuHuiTi-3-55-Regular.woff2');
+    }
+    body {
+      font-family: 'AlibabaPuHuiTi-Regular';
+    }
+    .text-font {
+      font-size:1.2rem;
+      line-height: 2.5rem;
+    }
+    .footer {
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <image src="./images/icon.png" width="28" class="rounded"></image>
+    <a class="navbar-brand ml-1" href="#">
+      小物品
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#features">功能</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" target="_blank" href="https://support.qq.com/product/325151">意见反馈</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">联系我们</a>
+        </li>
+      </ul>
+      <!-- <div class="nav-item dropdown ml-auto">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Language
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="#">中文</a>
+        </div>
+      </div>
+ -->
+    </div>
+  </nav>
+
+  <div class="container-fluid mt-5">
+    <div class="row" id="home">
+      <div class="col-md-12 text-center mb-4">
+        <h1 class="mt-5 wow animate__animated animate__fadeInLeft">收藏 & 记录 & 断舍离 & 极简主义</h1>
+        <h2 class="text-secondary mt-5 wow animate__animated animate__fadeInLeft">一款只管理不收纳的物品App</h2>
+      </div>
+      <div class="col-md-8 offset-md-2 pl-4 pr-4 text-center wow animate__animated animate__fadeInLeft">
+        <img src="./images/Screenshot_1.png" class="img-fluid mb-5">
+      </div>
+
+      <div class="col-md-12 text-center">
+        <p class="text-font mb-4 text-primary wow animate__animated animate__fadeInLeft">🎉 立即获取<strong>小物品</strong> </p>
+        <div class="mb-5 text-center wow animate__animated animate__fadeInLeft">
+          <a href="https://apps.apple.com/cn/app/小物品-轻量极简的物品管理app/id1561576509" class="btn" target="_blank">
+            <image src="./images/download-app-appstore.png" width="180"></image>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="row bg-f5f5f5" id="features">
+      <div class="col-md-12 mt-4">
+        <h2 class="text-center mt-4 wow animate__animated animate__fadeInLeft">特色功能</h2>
+        <div class="container mt-4">
+          <div class="row mb-4 mt-4 wow animate__animated animate__fadeInLeft">
+            <div class="col-md-4 text-center">
+              <img src="./images/simple.png" width="80">
+              <h5>操作简单</h5>
+              <p class="text-secondary">超级简单和原生的体验</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="./images/Emoji.png" width="80">
+              <h5>丰富的自定义</h5>
+              <p class="text-secondary">
+                支持自定义分类颜色、emoji图标，应用字体大小等
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="./images/lock.png" width="80">
+              <h5>FaceID解锁</h5>
+              <p class="text-secondary">
+                开启生物识别解锁应用，更好地保护您的隐私
+              </p>
+            </div>
+          </div>
+          <div class="row mb-4 mt-4 wow animate__animated animate__fadeInLeft">
+            <div class="col-md-4 text-center">
+              <img src="./images/stop.png" width="80">
+              <h5>物品停用</h5>
+              <p class="text-secondary">
+                一个独家的功能设计：归档后可为物品设置停用时间，更精确地计算物品的使用时长和平均成本
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="./images/price.png" width="80">
+              <h5>平均成本</h5>
+              <p class="text-secondary">
+                您喜欢的物品，每天的成本是多少钱？<br/>方便地帮助您衡量物品的性价比
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="./images/chart.png" width="80">
+              <h5>详细的统计</h5>
+              <p class="text-secondary">
+                按数量和价格统计物品，按物品分类、标签、来源细分
+              </p>
+            </div>
+          </div>
+          <div class="row mb-4 mt-4 wow animate__animated animate__fadeInLeft">
+            <div class="col-md-4 text-center">
+              <img src="./images/reminder.png" width="80">
+              <h5>提醒事项</h5>
+              <p class="text-secondary">
+                打算维护和修理的、即将过期的...，各种场景下的提醒都可以满足
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="./images/widget.png" width="80">
+              <h5>iOS小组件</h5>
+              <p class="text-secondary">
+                将提醒事项添加到桌面，一目了然
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <img src="./images/icloud.png" width="80">
+              <h5>iCloud数据同步</h5>
+              <p class="text-secondary">
+                在您的iPhone和iPad上同步您的数据：您的数据仅存储在iCloud上，我们不会获取您的任何数据
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row wow animate__animated animate__fadeInLeft">
+      <div class="col-md-3 offset-md-2 text-center">
+        <img src="./images/Screenshot_2.png" alt="Product Image" class="img-fluid mt-4 mb-4 wow animate__animated animate__fadeInLeft animate__delay-1s" width="300">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2 class="mt-4 mb-4">制作丰富多彩的分类</h2>
+        <p class="mb-4 text-font">
+          🎨 颜色选择器
+        </p>
+        <p class="mb-4 text-font">
+          😊 多种图标 + emoji键盘
+        </p>
+        <p class="mb-4 text-font">
+          🥚 小彩蛋一只  <br/>
+          <span class="text-secondary">
+            图表颜色与您在添加分类时选择的颜色一致，也就是说您完全可以自定义<strong>统计图表📈配色</strong>
+          </span>
+        </p>
+      </div>
+    </div>
+    <div class="row bg-f5f5f5 wow animate__animated animate__fadeInLeft">
+      <div class="col-md-4 offset-md-2 d-flex flex-column justify-content-center">
+        <h2 class="mt-4 mb-4">物品数据分析</h2>
+        <p class="mb-4 text-font">
+          ☑️ 物品数量
+        </p>
+        <p class="mb-4 text-font">
+          ☑️ 物品花费
+        </p>
+      </div>
+
+      <div class="col-md-6 text-center">
+        <img src="./images/Screenshot_3.png" alt="Product Image" class="img-fluid wow animate__animated animate__fadeInLeft animate__delay-1s">
+      </div>
+    </div>
+    <div class="row d-flex flex-column justify-content-center">
+      <div class="mt-5 text-center">
+        <h1>获取<span class="text-primary">小物品</span></h1>
+        <p class="text-font">🎉 开始愉快地管理您的物品吧 </p>
+      </div>
+      <div class="mb-5 text-center wow animate__animated animate__fadeInLeft">
+        <a href="https://apps.apple.com/cn/app/小物品-轻量极简的物品管理app/id1561576509" class="btn" target="_blank">
+          <image src="./images/download-app-appstore.png" width="180"></image>
+        </a>
+      </div>
+    </div>
+    <div class="row bg-f5f5f5">
+      <div class="footer wow animate__animated animate__fadeInLeft text-center pt-4 pb-4" id="contact">
+        <div >
+          <p><a href="mailto:sug3rs@foxmail.com">📧 sug3rs@foxmail.com</a></p>
+          <p><a href="https://cherishlau.github.io" target="_blank">🔗 BLOG</a></p>
+        </div>
+        <small>© CherishLau 2023, All rights reserved.</small>
+      </div>  
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+</body>
+</html>
